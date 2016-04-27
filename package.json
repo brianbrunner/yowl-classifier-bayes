@@ -1,0 +1,36 @@
+{
+  "name": "yowl-classifier-bayes",
+  "version": "0.1.1",
+  "description": "Classify yowl user messages using naive bayes",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js samples/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbrunner/yowl-classifier-bayes.git"
+  },
+  "keywords": [
+    "chatbot",
+    "bayes",
+    "yowl"
+  ],
+  "author": "Brian Brunner (brian.brunner@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianbrunner/yowl-classifier-bayes/issues"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "mocha": "latest"
+  },
+  "jshintConfig": {
+    "node": true,
+    "proto": true
+  },
+  "homepage": "https://github.com/brianbrunner/yowl-classifier-bayes#readme",
+  "dependencies": {
+    "lodash": "^4.11.1",
+    "natural": "^0.4.0"
+  }
+}
